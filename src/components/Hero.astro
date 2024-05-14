@@ -1,0 +1,12 @@
+---
+import L from '@/i18n/i18n-node'
+
+import { getLocale } from '@/i18n/utils'
+
+const locale = getLocale(Astro)
+
+const hithere = L[locale].seo.description()
+
+---
+
+<h1>{hithere}</h1>
