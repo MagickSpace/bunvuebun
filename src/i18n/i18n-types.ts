@@ -60,5 +60,4 @@ export type TranslationFunctions = {
 	}
 }
 
-// biome-ignore lint/complexity/noBannedTypes: <explanation>
 export type Formatters = {}
